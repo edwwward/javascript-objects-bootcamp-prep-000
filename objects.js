@@ -2,6 +2,7 @@ var playlist = {
   Name:"Song"
 }
 
-function updatePlaylist(object, name, sing) {
+function updatePlaylist(object, name, song) {
   
+  return playlist;
 }
