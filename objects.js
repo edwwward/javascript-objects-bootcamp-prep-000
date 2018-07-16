@@ -2,7 +2,7 @@ var playlist = {
   Name:"Song"
 }
 
-function updatePlaylist(object, name, song) {
-  object[name] = song;
-  return object;
+function updatePlaylist(playlist, name, song) {
+  playlist[name] = song;
+  return playlist;
 }
